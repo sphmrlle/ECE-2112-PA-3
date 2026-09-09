@@ -14,4 +14,19 @@ The following methods are used:
 
 • `cars.shape` - Displays the number of rows and columns in the DataFrame.
 
-• `cars.shape`
+• `cars` - Displays the complete DataFrame and its records.
+
+• `cars.iloc [5:10]` - Uses positional indexing to select rows  6 through 10.
+
+• `.loc [:, ['Model', 'mpg', 'cyl', 'hp', 'gear']]` - Selects the required columns using their labels and keeps them in the requested order.
+
+
+The combination of the different operations gives the final function:
+
+```python
+import pandas as pd
+
+cars = pd.read_csv ('/cars.csv')
+cars
+
+cars.shape
