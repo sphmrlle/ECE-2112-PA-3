@@ -86,7 +86,9 @@ selected_cars
 
 print (selected_cars.shape)
 ```
+Thank you for reading!
 
+For reference of the main python program for Programming Assignment 3, kindly click the link and download: (https://github.com/sphmrlle/ECE-2112-PA-3)
 ### README File Version History:
 
 September 9, 2026 - Initial README ouput uploaded and drafted.
