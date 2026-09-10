@@ -86,3 +86,9 @@ selected_cars
 
 print (selected_cars.shape)
 ```
+
+### README File Version History:
+
+September 9, 2026 - Initial README ouput uploaded and drafted.
+
+September 10, 2026 - Final README updated
